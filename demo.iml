@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -11,6 +11,33 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="commons-cli-1.2" level="project" />
+    <orderEntry type="library" name="trove4j-3.0.3" level="project" />
+    <orderEntry type="library" name="fnlp-core-2.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.6" level="project" />
+    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.10.3" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: org.fnlp:core:2.1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/fnlp-core-2.1-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: org.fnlp:app:2.1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/fnlp-app-2.1-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:7.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queryparser:7.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queries:7.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-sandbox:7.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-analyzers-common:7.1.0" level="project" />
   </component>
 </module>
